@@ -8,4 +8,4 @@ h = time_in_seconds // 3600
 m = time_in_seconds // 60 - h * 60
 s = time_in_seconds - (m * 60 + h * 3600)
 
-print(f"Время в формате hh:mm:ss {h}:{m}:{s}")
+print(f"Время в формате hh:mm:ss {h:>02}:{m:>02}:{s:>02}")
